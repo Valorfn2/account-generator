@@ -160,4 +160,4 @@ bot.on("message", message => {
     }
 });
 
-bot.login("Token");
+client.login(proccess.env.TOKEN");
